@@ -1,7 +1,7 @@
 import React, { useState } from "react";
-import { Card, CardContent } from "@/components/ui/card";
-import { Input } from "@/components/ui/input";
-import { Select, SelectTrigger, SelectContent, SelectItem } from "@/components/ui/select";
+import { Card, CardContent } from "./components/ui/card";
+import { Input } from "./components/ui/input";
+import { Select, SelectTrigger, SelectContent, SelectItem } from "./components/ui/select";
 
 const days = ["Monday", "Tuesday", "Wednesday", "Friday", "Saturday", "Sunday"];
 const physioPlans = [
